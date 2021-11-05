@@ -22,7 +22,7 @@ namespace GrpcAuthor
             antonio.BooksAuthored.Add(new BookReply { Title = "How to do a split" });
             authors.Add(antonio);
 
-            var jack = new AuthorResponse { Name = "Jack Olabisi" };
+            var jack = new AuthorResponse { Name = "Jack Olabisi test" };
             jack.BooksAuthored.Add(new BookReply { Title = "Early morning bird" });
             jack.BooksAuthored.Add(new BookReply { Title = "Fly me to Paris" });
             authors.Add(jack);
